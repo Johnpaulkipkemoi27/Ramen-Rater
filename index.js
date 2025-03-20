@@ -51,7 +51,7 @@ function addSubmitListener() {
     });
 }
 
-// Show First Ramen's Details on Page Load (Optional)
+// Show First Ramen's Details on Page Load
 function showFirstRamen() {
     if (ramens.length > 0) {
         handleClick(ramens[0]); 
